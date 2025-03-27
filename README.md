@@ -29,3 +29,7 @@ git clone https://github.com/Misba0019/color_project.git
 ```bash
 cd color_project
 ```
+3. Install dependencies:
+```bash
+npm install
+```
