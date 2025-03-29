@@ -5,19 +5,19 @@ This is a simple Node.js project that demonstrates basic concepts like module im
 
 ## Features
 
-1. **Module Importing**:
+- **Module Importing**:
    - Import custom modules (`math.js`) and directories (`shelter`).
 
-2. **Directory Exports**:
+- **Directory Exports**:
    - Use `index.js` to export multiple files from a directory.
 
-3. **File System Operations**:
+- **File System Operations**:
    - Create directories and files dynamically using the `fs` module (`nodeScript.js`).
 
-4. **Command-Line Arguments**:
+- **Command-Line Arguments**:
    - Process and log command-line arguments (`args.js`).
 
-5. **External Libraries**:
+- **External Libraries**:
    - Fetch and display jokes in colorful output using `one-liner-joke` and `colors` libraries (`Jokester/index.js`).
 
 ## Installation
