@@ -60,6 +60,28 @@ cd ..
 4. **Install Dependencies for the [Jokester](http://_vscodecontentref_/3) Subproject**:
    - Since the [Jokester](http://_vscodecontentref_/4) folder has its own `package.json` file, you need to navigate into that folder and run `npm install` to install its dependencies (e.g., `one-liner-joke`, `colors`).
 
+## Usage
+
+### Running `args.js`:
+```bash
+node [args.js](http://_vscodecontentref_/3) Alice Casey
+```
+- **Expected Output**: Hello from Args File!
+Hi there, Alice!
+Hi there, Casey! 
+
+### Running `nodeScript.js` (Only if you need to make a new project dir):
+```bash
+node [nodeScript.js](http://_vscodecontentref_/4) MyProject
+```
+- **Expected Output**: Folder "MyProject" created successfully!
+
+### Running `Jokester/index.js`:
+```bash
+node [index.js](http://_vscodecontentref_/5)
+```
+- **Expected Output**:  A random joke will be displayed in rainbow colors using the `colors` library.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
