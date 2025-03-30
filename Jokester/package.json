@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "axios": "^1.7.9",
     "colors": "^1.4.0",
     "follow-redirects": "^1.15.9",
     "one-liner-joke": "^1.2.2"

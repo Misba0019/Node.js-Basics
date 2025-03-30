@@ -7,10 +7,10 @@ const randomJoke = oneLineJokes.getRandomJoke({
     exclude_tags: []
 });
 
-if (randomJoke.body) {
+try {
     console.log(randomJoke.body.rainbow); // Print the joke in rainbow colors
-} else {
-    console.log("No joke found!".red); // Print an error message in red if no joke is found
+} catch (e) {
+    console.log("Error: No joke found!".red, e.message); // Print an error message in red if no joke is found
 }
 
 // Explanation:

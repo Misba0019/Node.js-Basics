@@ -10,19 +10,17 @@ const folderName = process.argv[2] || 'Project';
 // });
 
 try {
-    fs.mkdirSync(folderName);
-    // Synchronously create a new directory with the name specified by folderName
-    fs.writeFileSync(`${folderName}/index.html`, '');
-    // Synchronously create an empty 'index.html' file inside the new directory
-    fs.writeFileSync(`${folderName}/app.js`, '');
-    // Synchronously create an empty 'app.js' file inside the new directory
-    fs.writeFileSync(`${folderName}/app.css`, '');
-    // Synchronously create an empty 'app.css' file inside the new directory
+    if (!fs.existsSync(folderName)) {
+        fs.mkdirSync(folderName);
+        fs.writeFileSync(`${folderName}/index.html`, '<!DOCTYPE html>\n<html>\n<head>\n<title>My Project</title>\n</head>\n<body>\n</body>\n</html>');
+        fs.writeFileSync(`${folderName}/app.js`, '// JavaScript entry point');
+        fs.writeFileSync(`${folderName}/app.css`, '/* CSS entry point */');
+        console.log(`Folder "${folderName}" created successfully!`);
+    } else {
+        console.log(`Folder "${folderName}" already exists.`);
+    }
 } catch (e) {
-    console.log("Something went wrong");
-    // Log a generic error message if something goes wrong
-    console.log(e);
-    // Log the actual error details
+    console.error("An error occurred while creating the project structure:", e.message);
 }
 
 // Note:

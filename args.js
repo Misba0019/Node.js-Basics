@@ -1,9 +1,13 @@
-console.log("Hello from Args File!"); // Log a greeting message
-console.log(process.argv); // Log the array of command-line arguments
+console.log("Hello from the Args File!"); // Log a greeting message
+// console.log(process.argv); // Log the array of command-line arguments
 
 const args = process.argv.slice(2); // Remove the first two elements (node executable and script path)
-for (let arg of args) {
-    console.log(`Hi there, ${arg}`); // Greet each argument
+if(args.length === 0) {
+    console.log("No arguments provided.");
+} else {
+    for(let arg of args) {
+        console.log(`Hey there, ${arg}!`); // Greet each argument
+    }
 }
 
 // Explanation:
