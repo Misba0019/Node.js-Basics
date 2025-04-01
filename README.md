@@ -64,7 +64,7 @@ cd ..
 
 ### Running `args.js`:
 ```bash
-node [args.js](http://_vscodecontentref_/3) Alice Casey
+node args.js Alice Casey
 ```
 - **Expected Output**: Hello from Args File!
 Hi there, Alice!
@@ -72,13 +72,13 @@ Hi there, Casey!
 
 ### Running `nodeScript.js` (Only if you need to make a new project dir):
 ```bash
-node [nodeScript.js](http://_vscodecontentref_/4) MyProject
+node nodeScript.js MyProject
 ```
 - **Expected Output**: Folder "MyProject" created successfully!
 
 ### Running `Jokester/index.js`:
 ```bash
-node [index.js](http://_vscodecontentref_/5)
+node index.js
 ```
 - **Expected Output**:  A random joke will be displayed in rainbow colors using the `colors` library.
 
