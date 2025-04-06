@@ -57,8 +57,8 @@ cd ..
 3. **Install Main Project Dependencies**:
    - Runs `npm install` in the main project directory to install any dependencies listed in the `package.json` file (if applicable).
 
-4. **Install Dependencies for the [Jokester](http://_vscodecontentref_/3) Subproject**:
-   - Since the [Jokester](http://_vscodecontentref_/4) folder has its own `package.json` file, you need to navigate into that folder and run `npm install` to install its dependencies (e.g., `one-liner-joke`, `colors`).
+4. **Install Dependencies for the [Jokester](https://github.com/Misba0019/Node.js-Basics/tree/main/Jokester) Subproject**:
+   - Since the [Jokester](https://github.com/Misba0019/Node.js-Basics/tree/main/Jokester) folder has its own `package.json` file, you need to navigate into that folder and run `npm install` to install its dependencies (e.g., `one-liner-joke`, `colors`).
 
 ## Usage
 
