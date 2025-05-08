@@ -1,5 +1,5 @@
-# Node.js Project
-## Overview
+# NodeJS-Basics
+## Description
 
 This is a simple Node.js project that demonstrates basic concepts like module importing, directory exports, file system operations, and using external libraries.
 
@@ -48,6 +48,7 @@ cd ..
 ```
 
 ### Explanation of Each Step
+
 1. **Clone the Repository**:
    - Downloads the project from GitHub to your local machine.
 
@@ -66,21 +67,24 @@ cd ..
 ```bash
 node args.js Alice Casey
 ```
-- **Expected Output**: Hello from Args File!
-Hi there, Alice!
-Hi there, Casey! 
+- **Expected Output**:  
+Hello from Args File!  
+Hi there, Alice!  
+Hi there, Casey!
 
 ### Running `nodeScript.js` (Only if you need to make a new project dir):
 ```bash
 node nodeScript.js MyProject
 ```
-- **Expected Output**: Folder "MyProject" created successfully!
+- **Expected Output**:  
+Folder "MyProject" created successfully!
 
-### Running `Jokester/index.js`:
+### Running the Script in the `Jokester` Directory:
 ```bash
 node index.js
 ```
-- **Expected Output**:  A random joke will be displayed in rainbow colors using the `colors` library.
+- **Expected Output**:  
+A random joke will be displayed in rainbow colors using the `colors` library.
 
 ## License
 
