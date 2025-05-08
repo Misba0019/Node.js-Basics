@@ -27,12 +27,12 @@ Follow these steps to set up the project and install all necessary dependencies:
 1. **Clone the Repository**:
    Clone the repository to your local machine:
 ```bash
-git clone https://github.com/Misba0019/color_project.git
+git clone https://github.com/Misba0019/NodeJS-Basics.git
 ```
 2. **Navigate to the Project Directory**:
    Change into the main project directory:
 ```bash
-cd color_project
+cd NodeJS-Basics
 ```
 3. **Install Main Project Dependencies**:
    Install the dependencies for the main project (if any are listed in the package.json file):
