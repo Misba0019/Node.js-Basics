@@ -86,6 +86,9 @@ node index.js
 - **Expected Output**:  
 A random joke will be displayed in rainbow colors using the `colors` library.
 
+## Support
+⭐ If you find this project helpful, please consider visiting the repo and giving it a ⭐ star — it really helps!
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
